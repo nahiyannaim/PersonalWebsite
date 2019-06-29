@@ -72,6 +72,53 @@ input, select, textarea {
 	appearance: none;
 }
 
+
+.column-split-it 
+{
+	float: left;
+	width: 60%;
+	padding: 5px;
+}
+
+.column-course-tracker 
+{
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+
+.column-activity-tracker 
+{
+	float: left;
+	width: 90%;
+	padding: 5px;
+}
+
+.row::after 
+{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.split-it-img
+{
+	width: 160%;
+	margin-left: 10%;	
+}
+
+.course-tracker-img
+{
+	width: 105%;	
+}
+
+.activity-tracker-img
+{
+	width: 105%;
+	margin-left: 3%;		
+}
+
+
 /* Basic */
 
 	@-ms-viewport {
