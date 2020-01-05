@@ -80,6 +80,13 @@ input, select, textarea {
 	padding: 5px;
 }
 
+.column-phase-keeper 
+{
+	float: left;
+	width: 60%;
+	padding: 5px;
+}
+
 .column-course-tracker 
 {
 	float: left;
@@ -99,6 +106,13 @@ input, select, textarea {
 	content: "";
 	clear: both;
 	display: table;
+}
+
+.phase-keeper-img
+{
+	width: 150%;
+	height: 100%;
+	margin-left: 10%;	
 }
 
 .split-it-img
